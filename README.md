@@ -32,7 +32,7 @@ License -> https://github.com/FayasNoushad/Remove-BG-Bot/blob/main/LICENSE
 <br/>
 
 ```sh
-git clone https://github.com/FayasNoushad/Remove-BG-Bot
+git clone https://github.com/BXBotz/Remove-BG-Bot
 cd Remove-BG-Bot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
