@@ -9,7 +9,6 @@ import requests
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-REMOVEBG_API = os.environ.get("REMOVEBG_API", "")
 UNSCREEN_API = os.environ.get("UNSCREEN_API", "")
 IMG_PATH = "./DOWNLOADS"
 
@@ -177,14 +176,6 @@ def removebg_image(file):
         files={"image_file": open(file_name, "rb")},
         data={"size": "auto"},
         headers={"X-Api-Key": REMOVEBG_API}
-    )
-
-
-def removebg_video(file):
-    return requests.post(
-        "https://api.unscreen.com/v1.0/videos",
-        files={"video_file": open(file, "rb")},
-        headers={"X-Api-Key": UNSCREEN_API}
     )
 
 
