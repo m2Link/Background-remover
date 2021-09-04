@@ -24,12 +24,12 @@ Hai {},
 
 `I am a simple image background remover bot. Send me a photo I will send the photo without background.`
 
-👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)
+👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ᴍ2ʙᴏᴛᴢ](https://t.me/m2botz)
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Developer', url='https://telegram.me/HMTHMA')
+        InlineKeyboardButton('Developer', url='https://t.me/ask_admin01')
         ]]
     )
 
@@ -41,7 +41,7 @@ ERROR_BUTTONS = InlineKeyboardMarkup(
     )
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Developer', url='https://telegram.me/HMTHMA')
+        InlineKeyboardButton('Developer', url='https://t.me/ask_admin01')
         ]]
     )
 
